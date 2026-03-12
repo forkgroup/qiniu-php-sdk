@@ -1,5 +1,5 @@
 {
-    "name": "qiniu/php-sdk",
+    "name": "limingxinleo/qiniu-php-sdk",
     "type": "library",
     "description": "Qiniu Resource (Cloud) Storage SDK for PHP",
     "keywords": [
@@ -27,6 +27,9 @@
         "paragonie/random_compat": ">=2",
         "phpunit/phpunit": "^4.8 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.3.4",
         "squizlabs/php_codesniffer": "^2.3 || ~3.6"
+    },
+    "replace": {
+        "qiniu/php-sdk": "*"
     },
     "autoload": {
         "psr-4": {
